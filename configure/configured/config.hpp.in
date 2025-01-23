@@ -1,0 +1,11 @@
+#pragma once
+
+#include <cstdint>
+#include <string_view>
+
+static constexpr std::string_view project_name = "@CMAKE_PROJECT_NAME@";
+static constexpr std::string_view project_version = "@CMAKE_PROJECT_VERSION@";
+
+static constexpr std::uint32_t project_version_major{@CMAKE_PROJECT_VERSION_MAJOR@};
+static constexpr std::uint32_t project_version_minor{@CMAKE_PROJECT_VERSION_MINOR@};
+static constexpr std::uint32_t project_version_patch{@CMAKE_PROJECT_VERSION_PATCH@};

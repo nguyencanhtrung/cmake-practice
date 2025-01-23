@@ -15,11 +15,14 @@ Learn how to setup a CMAKE project.
 > [Inter. Project](./inter-project/README.md)
 
 Note:
-
 `target_include_directories( ... )` always set in the `CMakeLists.txt` of the directory containing headers (`*.h`) file
 
 ## Variables and options in CMake
 
 > [Variables and Options](./var-options/README.md)
+
+## Configuration - Exposing project version, project name, etc. to application
+
+> [Exposing the CMAKE variables to application](./configure/README.md)
 
 ## Daily C/C++ workflow
